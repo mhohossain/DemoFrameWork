@@ -1,0 +1,69 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 5, Errors: 0, Skipped: 14, Time elapsed: 1.28 sec <<< FAILURE!
+setUp(com.demoaut.tests.FindFlightPageTest)  Time elapsed: 0.673 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\pinou\Documents\QA  tester\JAVA JAR FILES\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.demoaut.base.TestBase.initializeBrowser(TestBase.java:56)
+	at com.demoaut.tests.FindFlightPageTest.setUp(FindFlightPageTest.java:21)
+
+setUp(com.demoaut.tests.LoginPageTest)  Time elapsed: 0.677 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\pinou\Documents\QA  tester\JAVA JAR FILES\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.demoaut.base.TestBase.initializeBrowser(TestBase.java:56)
+	at com.demoaut.tests.LoginPageTest.setUp(LoginPageTest.java:20)
+
+setUp(com.demoaut.tests.RegisterPageTest)  Time elapsed: 0.681 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\pinou\Documents\QA  tester\JAVA JAR FILES\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.demoaut.base.TestBase.initializeBrowser(TestBase.java:56)
+	at com.demoaut.tests.RegisterPageTest.setUp(RegisterPageTest.java:17)
+
+setUp(com.demoaut.tests.SelectFlightPageTest)  Time elapsed: 0.687 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\pinou\Documents\QA  tester\JAVA JAR FILES\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.demoaut.base.TestBase.initializeBrowser(TestBase.java:56)
+	at com.demoaut.tests.SelectFlightPageTest.setUp(SelectFlightPageTest.java:20)
+
+setUp(com.demoaut.tests.SignOnPageTest)  Time elapsed: 0.691 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\pinou\Documents\QA  tester\JAVA JAR FILES\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.demoaut.base.TestBase.initializeBrowser(TestBase.java:56)
+	at com.demoaut.tests.SignOnPageTest.setUp(SignOnPageTest.java:19)
+

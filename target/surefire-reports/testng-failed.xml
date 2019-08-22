@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.demoaut.tests.SelectFlightPageTest">
+        <methods>
+          <include name="flush"/>
+          <include name="setUp"/>
+          <include name="parame"/>
+          <include name="verifySelectFlightPageTitleTest"/>
+          <include name="initReprt"/>
+        </methods>
+      </class> <!-- com.demoaut.tests.SelectFlightPageTest -->
+      <class name="com.demoaut.tests.FindFlightPageTest">
+        <methods>
+          <include name="flush"/>
+          <include name="verifyFindFlightsPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="verifyFlightDetailsLabelTest"/>
+          <include name="parame"/>
+          <include name="initReprt"/>
+        </methods>
+      </class> <!-- com.demoaut.tests.FindFlightPageTest -->
+      <class name="com.demoaut.tests.SignOnPageTest">
+        <methods>
+          <include name="flush"/>
+          <include name="verifySignOnPageTitleTest"/>
+          <include name="parame"/>
+          <include name="setUp"/>
+          <include name="initReprt"/>
+        </methods>
+      </class> <!-- com.demoaut.tests.SignOnPageTest -->
+      <class name="com.demoaut.tests.RegisterPageTest">
+        <methods>
+          <include name="flush"/>
+          <include name="parame"/>
+          <include name="verifyRegisterPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="initReprt"/>
+        </methods>
+      </class> <!-- com.demoaut.tests.RegisterPageTest -->
+      <class name="com.demoaut.tests.LoginPageTest">
+        <methods>
+          <include name="flush"/>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="parame"/>
+          <include name="setUp"/>
+          <include name="initReprt"/>
+        </methods>
+      </class> <!-- com.demoaut.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
